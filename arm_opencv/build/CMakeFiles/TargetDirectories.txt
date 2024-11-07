@@ -1,3 +1,0 @@
-/home/kgh/robot_ws/src/ROS2_OpenCV/arm_opencv/build/CMakeFiles/arm_opencv.dir
-/home/kgh/robot_ws/src/ROS2_OpenCV/arm_opencv/build/CMakeFiles/edit_cache.dir
-/home/kgh/robot_ws/src/ROS2_OpenCV/arm_opencv/build/CMakeFiles/rebuild_cache.dir

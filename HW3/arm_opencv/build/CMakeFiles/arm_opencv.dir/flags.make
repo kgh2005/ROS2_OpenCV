@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/kgh/robot_ws/src/ROS2_OpenCV/arm_opencv/include -isystem /usr/include/opencv4
+CXX_INCLUDES = -I/home/kgh/robot_ws/src/ROS2_OpenCV/HW3/arm_opencv/include -isystem /usr/include/opencv4
 
 CXX_FLAGS = 
 

@@ -34,21 +34,21 @@ void drawRoboticArm(cv::Mat& image, double angle1, double angle2) {
 
 int main() {
     cv::Mat image(HEIGHT, WIDTH, CV_8UC3);
-    cv::namedWindow("Robotic Arm");
+    cv::namedWindow("Arm");
 
     double angle1 = 0.0;  // 첫 번째 관절 각도
     double angle2 = 0.0;  // 두 번째 관절 각도
 
     while (1) {
         // 각도 업데이트
-        angle1 += 0.05;  // 첫 번째 관절 회전 속도
-        angle2 += 0.08;  // 두 번째 관절 회전 속도
+        angle1 += 0.1;  // 첫 번째 관절 회전 속도
+        angle2 += 0.1;  // 두 번째 관절 회전 속도
 
         // 로봇 팔 그리기
         drawRoboticArm(image, angle1, angle2);
 
         // 이미지 출력
-        cv::imshow("Robotic Arm", image);
+        cv::imshow("Arm", image);
 
         // ESC 키를 누르면 종료
         char key = cv::waitKey(30);

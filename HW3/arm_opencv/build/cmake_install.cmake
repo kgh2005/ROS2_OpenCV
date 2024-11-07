@@ -1,4 +1,4 @@
-# Install script for directory: /home/kgh/robot_ws/src/ROS2_OpenCV/arm_opencv
+# Install script for directory: /home/kgh/robot_ws/src/ROS2_OpenCV/HW3/arm_opencv
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/kgh/robot_ws/src/ROS2_OpenCV/arm_opencv/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/kgh/robot_ws/src/ROS2_OpenCV/HW3/arm_opencv/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
